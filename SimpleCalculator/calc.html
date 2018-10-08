@@ -5,15 +5,15 @@
     <title>Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="calc.css" />
-    <script src="calc.js"></script>
+    
 </head>
 <body>
-    <div class="container">
+    <div id="calc" class="container">
         <div class="main-calc">
             <table cellspacing="0" cellpadding="0" border="1px">
                 <tr>
                     <td><input type="button" value="=" name="btn"/></td>
-                    <td colspan="3"><input type="text" value="0" readonly/></td>
+                    <td colspan="3"><input type="text" value="0" id="screen" readonly/></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="1" name="btn"/></td>
@@ -42,10 +42,11 @@
             </table>
         </div>
         <div class="calc-report">
-            <textarea>
+            <textarea id="report">
 
             </textarea>
         </div>
     </div>
+    <script type="text/javascript" src="calc2.js"></script>
 </body>
 </html>

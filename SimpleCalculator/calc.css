@@ -1,3 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-calc {
     float: left;
 }
@@ -16,15 +27,23 @@ input[type="button"] {
     text-align: center;
     background-color: white;
     color: black;
-    font-weight: bold;
-
+    /* font-weight: bold; */
+    font-size: 16px;
 }
 
 input[type="text"] {
     width: 152px;
-    height: 50px;
+    height: 46px;
     font-size: xx-large;
     background-color: lightgray;
     color: black;
-    
+    text-align: right;
+}
+
+.calc-report > textarea {
+    background-color: lightblue;
+    font-size: 15px;
+    color: black;
+    width: 150px;
+    height: 258px;
 }
