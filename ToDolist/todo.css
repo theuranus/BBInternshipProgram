@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.container {
+    width: 35vw;
+    background-color: white;
+    box-shadow: 5px 5px 25px black;
+}
+
+.list-tasks { 
+    width: 100%;
+}
+
+.wp-add-task {
+    width: 100%;
+}
+
+.wp-add-task input[type="text"] {
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-sizing: border-box;
+    outline: none;
+}
+
+.task {
+    width: 100%;
+    height: 60px;
+    background-color: #e6f2ff;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.task > input[type="checkbox"] {
+    margin-left: 12px;
+    margin-right: 12px;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: gray;
+    display: inline-block;
+    border-radius: 3px;
+}
+.task > input[type="checkbox"]:checked {
+    background: green;
+}
+
+.task > input[type="text"] {
+    border : none;
+    font-size: 24px;
+    background: transparent;
+    width: 80%;
+    outline: none;
+}
+
+.task > span {
+    cursor: pointer;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.task > select {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    outline: none;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: gray;
+    font-style: italic;
+}
+
+.task-hidden {
+    display: none;
+}
+
+.wp-filter {
+    width: 100%;
+    border-top: 1px solid lightgray;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wp-filter > span {
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.filter-active {
+    background-color: lightgray;
+}
+ 
