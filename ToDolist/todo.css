@@ -14,6 +14,8 @@ body {
     width: 35vw;
     background-color: white;
     box-shadow: 5px 5px 25px black;
+    margin: 10px;
+    
 }
 
 .list-tasks { 

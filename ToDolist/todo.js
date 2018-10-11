@@ -1,10 +1,10 @@
 (function(){
-    let data = JSON.parse(localStorage.getItem('data')) || [];
+let data = JSON.parse(localStorage.getItem('data')) || [];
 const listTasks = document.querySelector(".list-tasks");
 const addBox = document.getElementById('addBox');
 
 
-    render();
+render();
 
 
 function saveData() {
