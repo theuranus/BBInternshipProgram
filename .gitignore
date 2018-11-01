@@ -4,3 +4,10 @@
 /DragDrop/node_modules
 /DragDrop/.vscode
 /DragDrop/yarn.lock
+/styled-component/node_modules
+/styled-component/.vscode
+/styled-component/yarn.lock
+/type-scripts-app
+/cus-type-script/node_modules
+/cus-type-script/.vscode
+/cus-type-script/yarn.lock

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAAA,OAAO,CAACC,GAAR,CAAY,OAAZ;AACAD,OAAO,CAACC,GAAR,CAAY,0BAAZ","file":"ParcelJS.e31bb0bc.map","sourceRoot":"..","sourcesContent":["console.log('hello')\r\nconsole.log('something just like this')"]}
