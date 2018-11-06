@@ -11,3 +11,7 @@
 /cus-type-script/node_modules
 /cus-type-script/.vscode
 /cus-type-script/yarn.lock
+/Unstated
+/unstated-sample/node_modules
+/unstated-sample/.vscode
+/unstated-sample/yarn.lock
